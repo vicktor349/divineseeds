@@ -1,0 +1,61 @@
+.home {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+    margin: 5% 10% 2% 10%;
+}
+
+.logo {
+    position: absolute;
+    top: 17%;
+    left: 15%;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.headerText {
+    text-align: center;
+}
+
+.schoolNameText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #064b06;
+}
+
+.schoolAddress {
+    color: rgb(14, 14, 66);
+    font-weight: lighter;
+    font-size: 24px;
+    margin-top: -40px;
+}
+
+.phoneNumber {
+    color: rgb(14, 14, 66);
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.text {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    background-color: #064b06;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.regFormText {
+    padding: 3px 0;
+}
+
+/* FORM DIV */
+.formDiv {
+    margin-top: 15%;
+}

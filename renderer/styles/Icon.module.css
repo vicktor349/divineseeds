@@ -1,0 +1,7 @@
+.body {
+    border: 2px grey solid;
+    border-radius: 2px;
+    padding: 20px;
+    height: 8em;
+    cursor: pointer;
+}
