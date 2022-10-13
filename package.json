@@ -7,8 +7,9 @@
   "main": "app/background.js",
   "scripts": {
     "dev": "nextron",
-    "build": "nextron build",
-    "postinstall": "electron-builder install-app-deps"
+    "build": "nextron build --win --x64",
+    "postinstall": "electron-builder install-app-deps",
+    "start": "node server.js"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
